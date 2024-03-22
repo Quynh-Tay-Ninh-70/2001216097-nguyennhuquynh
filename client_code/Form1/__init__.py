@@ -40,3 +40,7 @@ class Form1(Form1Template):
                 j -= 1
             arr[j + 1] = key
         return arr
+
+    def text_box_3_pressed_enter(self, **event_args):
+      """This method is called when the user presses Enter in this text box"""
+      pass
